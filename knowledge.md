@@ -25,3 +25,27 @@ ul - un order list, li - list item
 
 //là gì tùy chọn các biểu tượng trong danh sách style="list-style-type: none;";
 ```
+
+###### Thẻ form
+
+Tác dụng: để nhập và gửi dữ liệu lên server
+
+- Thuộc tính method của form: GET/POST
+  GET: hiển thị trên trình duyệt, gửi thông tin KO NHẠY CẢM, gửi lên dữ liệu nhỏ
+  POST: ko hiển thị dữ liệu khi gửi lên trình duyệt, gửi lên dữ liệu lớn
+- Thuộc tính action của form: nơi xử lý dữ liệu
+- Thẻ input: type:text, password, date, datetime, file,email, button
+
+- button:
+  Type: reset (Reset lại các giá trị input trong form).
+  Type: button (chỉ là 1 bút bình thường)
+  Type: submit (gửi dữ liệu lên server)
+
+##### Table
+
+thead, tbody, tr, td, th
+border=1 style="border-collapse: collapse"
+colspan: gộp cột
+rolspan: gộp dòng
+
+Thẻ br để ngắt câu
